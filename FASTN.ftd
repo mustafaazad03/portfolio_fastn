@@ -1,0 +1,6 @@
+-- import: fastn
+
+-- fastn.package: myweb
+
+-- fastn.dependency: fifthtry.github.io/doc-site
+-- fastn.dependency: mustafaazad.github.io/myweb

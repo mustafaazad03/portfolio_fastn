@@ -1,0 +1,111 @@
+-- import: myweb/assets
+-- import: mustafaazad.github.io/myweb/header as navbar
+-- import: mustafaazad.github.io/myweb/base-layout as layout
+-- import: mustafaazad.github.io/myweb/footer as footer
+-- import: mustafaazad.github.io/myweb/social-buttons as social
+-- import: mustafaazad.github.io/myweb/base-text as basetext
+
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- ftd.container:
+background.solid: black
+width: fill-container
+
+-- layout.base-layout:
+
+-- navbar.header:
+logo: $assets.files.images.logo.png
+logoURL: /
+header-item1: Home
+header-item2: About
+header-item3: Contact
+header-item1-link: /
+header-item2-link: /about
+header-item3-link: /contact
+cta-item1: Resume
+cta-item1-link: https://www.mustafaazad.me/Resume.pdf
+
+
+
+;; ------------------------------------------------------
+;; -----------------------------------------------------
+
+-- basetext.base-text:
+heading: Mustafa Azad
+description: Developer
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- ftd.row:
+spacing.fixed.px: 170
+
+-- ftd.image:
+width.fixed.px: 400
+src: $assets.files.images.read.png
+margin-bottom.px: 80
+border-radius.px: 10
+
+-- ftd.column:
+spacing.fixed.px: 20
+
+-- ftd.text: 
+color: white
+padding-bottom.px:10
+
+👨 Myself Mustafa Azad.Currently, computer science undergraduate studying at IET-DAVV in Indore. I'm always interested by programming and have a strong desire to learn about new technologies and create fascinating and innovative products. I am an eager and inquisitive guy that works hard and is driven to expand my understanding of real-world applications.
+
+-- ftd.text: 
+color: white
+padding-bottom.px:10
+
+🧑‍🏫 I am a Full Stack Developer, Open-Sourcer, Blockchain Enthusiast, and UX/UI Designer who enjoys building SaaS products and microservices apps as well as creating viable design systems. My extensive knowledge of frontend and backend application structure and architecture enables me to create sturdy and scalable products based on basic ideas. I can deliver engaging and intuitive designs that provide seamless user experiences by leveraging design principles.
+
+-- ftd.text:
+color: white
+padding-bottom.px:10
+
+🎯 On a daily basis, I work with Javascript and Typescript, both professionally and on personal projects. I've actively participated in several hackathons and open-source contribution programmes as both a participant and a mentor, and I've taken community sessions to aid with community building, team leadership, and diverse software development approaches.
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+;; ********** Footer **********
+
+-- footer.footer:
+title: Mustafa Azad | Copyright © 2023
+link: /
+
+-- end: footer.footer
+
+;; --------------------------------------------------------------
+
+;; ********** Social Buttons **********
+
+-- ftd.row:
+-- social.social-button-wrapper:
+link: https://www.linkedin.com/in/mustafa-azad-4128ba225/
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: twitter.com/MUSTAFAAZAD2003
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/Mustafa-Azad025
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: https://www.youtube.com/@safetycruncher1301
+image: $assets.files.images.youtube.png
+
+-- social.social-button-wrapper:
+link: mailto:mustafaazad533@gmail.com
+image: $assets.files.images.mail.png
+
+-- end: ftd.row
+
+-- end: layout.base-layout
+-- end: ftd.container

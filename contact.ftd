@@ -1,0 +1,75 @@
+-- import: myweb/assets
+-- import: mustafaazad.github.io/myweb/header as navbar
+-- import: mustafaazad.github.io/myweb/base-layout as layout
+-- import: mustafaazad.github.io/myweb/footer as footer
+-- import: mustafaazad.github.io/myweb/social-buttons as social
+-- import: mustafaazad.github.io/myweb/base-text as basetext
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- ftd.container:
+background.solid: black
+width: fill-container
+height: fill-container
+
+-- layout.base-layout:
+
+-- navbar.header:
+logo: $assets.files.images.logo.png
+logoURL: /
+header-item1: Home
+header-item2: About
+header-item3: Contact
+header-item1-link: /
+header-item2-link: /about
+header-item3-link: /contact
+cta-item1: Resume
+cta-item1-link: https://www.mustafaazad.me/Resume.pdf
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+-- basetext.base-text:
+heading: Contact
+description: Developer
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
+
+;; ********** Footer **********
+
+-- footer.footer:
+title: Mustafa Azad | Copyright © 2023
+link: /
+
+-- end: footer.footer
+
+;; --------------------------------------------------------------
+
+;; ********** Social Buttons **********
+
+-- ftd.row:
+-- social.social-button-wrapper:
+link: https://www.linkedin.com/in/mustafa-azad-4128ba225/
+image: $assets.files.images.linkedin.png
+
+-- social.social-button-wrapper:
+link: twitter.com/MUSTAFAAZAD2003
+image: $assets.files.images.twitter.png
+
+-- social.social-button-wrapper:
+link: https://github.com/Mustafa-Azad025
+image: $assets.files.images.github.png
+
+-- social.social-button-wrapper:
+link: https://www.youtube.com/@safetycruncher1301
+image: $assets.files.images.youtube.png
+
+-- social.social-button-wrapper:
+link: mailto:mustafaazad533@gmail.com
+image: $assets.files.images.mail.png
+
+-- end: ftd.row
+
+-- end: layout.base-layout
+-- end: ftd.container
