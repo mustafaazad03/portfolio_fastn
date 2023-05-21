@@ -13,6 +13,7 @@
 background.solid: black
 width: fill-container
 
+
 -- layout.base-layout:
 
 -- navbar.header:
