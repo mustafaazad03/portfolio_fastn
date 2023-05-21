@@ -1,9 +1,8 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
+-- fastn.package: mustafa-azad025.github.io/portfolio_fastn
 
--- fastn.dependency: fifthtry.github.io/doc-site as ds
--- fastn.dependency: fifthtry.github.io/bling as bling
+-- fastn.dependency: fifthtry.github.io/doc-site
+-- fastn.dependency: mustafa-azad025.github.io/ui-package as ui
 
--- fastn.auto-import: bling/chat as chat
--- fastn.auto-import: ds
+-- fastn.auto-import: ui

@@ -1,3 +1,4 @@
+-- import: fifthtry.github.io/doc-site as ds
 -- import: mustafa-azad025.github.io/portfolio_fastn/assets
 -- import: mustafa-azad025.github.io/ui-package/header as navbar
 -- import: mustafa-azad025.github.io/ui-package/base-layout as layout
@@ -5,6 +6,14 @@
 -- import: mustafa-azad025.github.io/ui-package/social-buttons as social
 -- import: mustafa-azad025.github.io/ui-package/base-text as basetext
 
+-- ds.page: About Page
+site-logo: $assets.files.images.github.png
+
+Hey Everyone, My name is mustafa azad. I am full stack developer
+just now building this portfolio.
+
+;; --------------------------------------------------------------
+;; --------------------------------------------------------------
 
 ;; --------------------------------------------------------------
 ;; --------------------------------------------------------------
@@ -31,46 +40,6 @@ cta-item1-link: https://www.mustafaazad.me/Resume.pdf
 
 ;; ------------------------------------------------------
 ;; -----------------------------------------------------
-
--- basetext.base-text:
-heading: Mustafa Azad
-description: Developer
-
-;; --------------------------------------------------------------
-;; --------------------------------------------------------------
-
--- ftd.row:
-spacing.fixed.px: 170
-
--- ftd.image:
-width.fixed.px: 400
-src: $assets.files.images.read.png
-margin-bottom.px: 80
-border-radius.px: 10
-
--- ftd.column:
-spacing.fixed.px: 20
-
--- ftd.text: 
-color: white
-padding-bottom.px:10
-
-👨 Myself Mustafa Azad.Currently, computer science undergraduate studying at IET-DAVV in Indore. I'm always interested by programming and have a strong desire to learn about new technologies and create fascinating and innovative products. I am an eager and inquisitive guy that works hard and is driven to expand my understanding of real-world applications.
-
--- ftd.text: 
-color: white
-padding-bottom.px:10
-
-🧑‍🏫 I am a Full Stack Developer, Open-Sourcer, Blockchain Enthusiast, and UX/UI Designer who enjoys building SaaS products and microservices apps as well as creating viable design systems. My extensive knowledge of frontend and backend application structure and architecture enables me to create sturdy and scalable products based on basic ideas. I can deliver engaging and intuitive designs that provide seamless user experiences by leveraging design principles.
-
--- ftd.text:
-color: white
-padding-bottom.px:10
-
-🎯 On a daily basis, I work with Javascript and Typescript, both professionally and on personal projects. I've actively participated in several hackathons and open-source contribution programmes as both a participant and a mentor, and I've taken community sessions to aid with community building, team leadership, and diverse software development approaches.
-
-;; --------------------------------------------------------------
-;; --------------------------------------------------------------
 
 ;; ********** Footer **********
 
@@ -108,4 +77,7 @@ image: $assets.files.images.mail.png
 -- end: ftd.row
 
 -- end: layout.base-layout
+
+
 -- end: ftd.container
+-- end: ds.page
