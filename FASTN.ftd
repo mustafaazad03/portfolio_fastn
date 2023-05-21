@@ -1,6 +1,8 @@
 -- import: fastn
 
--- fastn.package: myweb
+-- fastn.package: mustafa-azad025.github.io/portfolio_fastn
 
 -- fastn.dependency: fifthtry.github.io/doc-site
--- fastn.dependency: mustafaazad.github.io/myweb
+-- fastn.dependency: mustafa-azad025.github.io/ui-package as ui
+
+-- fastn.auto-import: ui

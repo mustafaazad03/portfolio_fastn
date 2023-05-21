@@ -1,9 +1,9 @@
--- import: myweb/assets
--- import: mustafaazad.github.io/myweb/header as navbar
--- import: mustafaazad.github.io/myweb/base-layout as layout
--- import: mustafaazad.github.io/myweb/footer as footer
--- import: mustafaazad.github.io/myweb/social-buttons as social
--- import: mustafaazad.github.io/myweb/base-text as basetext
+-- import: mustafa-azad025.github.io/portfolio_fastn/assets
+-- import: mustafa-azad025.github.io/ui-package/header as navbar
+-- import: mustafa-azad025.github.io/ui-package/base-layout as layout
+-- import: mustafa-azad025.github.io/ui-package/footer as footer
+-- import: mustafa-azad025.github.io/ui-package/social-buttons as social
+-- import: mustafa-azad025.github.io/ui-package/base-text as basetext
 
 ;; --------------------------------------------------------------
 ;; --------------------------------------------------------------
