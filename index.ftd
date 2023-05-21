@@ -22,8 +22,8 @@ header-item1: Home
 header-item2: About
 header-item3: Contact
 header-item1-link: /
-header-item2-link: /about
-header-item3-link: /contact
+header-item2-link: /portfolio_fastn/about
+header-item3-link: /portfolio_fastn/contact
 cta-item1: Resume
 cta-item1-link: https://www.mustafaazad.me/Resume.pdf
 
